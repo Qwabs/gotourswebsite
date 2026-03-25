@@ -1,3 +1,3 @@
 # gotourswebsite 
  
-A Simple booking page for tours displayed by the Company
+A Simple booking page for tours that can be booked by users on our website.
