@@ -105,7 +105,7 @@ bookingForm.addEventListener('submit', function(event) {
     bookingForm.reset();
     const today = new Date().toISOString().split('T')[0];
     document.getElementById('startDate').setAttribute('min', today);
-    alert('Booking confirmed! Your booking has been saved.');
+    //alert('Booking confirmed! Your booking has been saved.');
 });
 
 // Clear booking summary and reset form
