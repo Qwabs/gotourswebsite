@@ -88,7 +88,7 @@ bookingForm.addEventListener('submit', function(event) {
     // Calculate pricing on client-side
     const tour = tours.find(t => t.id === values.tour);
     const baseTotal = tour.price * values.guests;
-    const discount = values.guests > 10 ? Number((baseTotal * 0.1).toFixed(2)) : 0;
+    const discount = values.guests >= 6 ? Number((baseTotal * 0.1).toFixed(2)) : 0;
     const total = baseTotal - discount;
 
     const booking = {
